@@ -2,3 +2,8 @@ It's the simple simulation that mix up two methods that proposed in https://arxi
 
 And the result is shown as below:
 ![alt text](gd_vs_cesp.png)
+
+
+######################################
+# more details will update in future #
+######################################
