@@ -6,3 +6,11 @@ we have to download the datasets in the link: http://yann.lecun.com/exdb/mnist/
 2. train-labels-idx1-ubyte.gz:  training set labels (28881 bytes)
 3. t10k-images-idx3-ubyte.gz:   test set images (1648877 bytes)
 4. t10k-labels-idx1-ubyte.gz:   test set labels (4542 bytes)
+
+
+# Run the code
+To run the code, 
+
+``` console
+python main.py
+```
