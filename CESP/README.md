@@ -12,5 +12,5 @@ we have to download the datasets in the link: http://yann.lecun.com/exdb/mnist/
 To run the code, 
 
 ``` console
-python main.py
+$ python main.py
 ```
