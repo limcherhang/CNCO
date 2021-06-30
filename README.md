@@ -6,7 +6,7 @@ This report contains implemented on two paper:
 
 # New idea
 
-By the two methods proposed in the paper above, I have a new idea that is mix up two methods and do some simple simulation. By the way, I will update actually implement on the datasets. More details view https://github.com/limcherhang/finalreport/tree/main/simple_simulation.
+By the two methods proposed in the paper above, I have a new idea that is mix up two methods and do some simple simulation. By the way, I updated implement on the datasets mnist.
 
 # Run the code
 To run the code, 
@@ -14,3 +14,5 @@ To run the code,
 ``` console
 $ python main.py
 ```
+
+And get the result on Simultaneous Gradient Descent(SimGA), Consensus Optimization(ConOpt), Negative Curvature Exploitation for Local Saddle Point Problem(CESP) and Consensus Optimization + Negative Curvature Exploitation for Local Saddle Point Problem(ConOpt with CESP).
