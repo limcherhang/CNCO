@@ -15,4 +15,4 @@ To run the code,
 $ python main.py
 ```
 
-And get the result on Simultaneous Gradient Descent(SimGA), Consensus Optimization(ConOpt), Negative Curvature Exploitation for Local Saddle Point Problem(CESP) and Consensus Optimization + Negative Curvature Exploitation for Local Saddle Point Problem(ConOpt with CESP).
+And get the result of loss function and generated image on Simultaneous Gradient Descent(SimGA), Consensus Optimization(ConOpt), Negative Curvature Exploitation for Local Saddle Point Problem(CESP) and Consensus Optimization + Negative Curvature Exploitation for Local Saddle Point Problem(ConOpt with CESP).
