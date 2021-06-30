@@ -1,4 +1,4 @@
-# final report for structural machine learning and their applications
+# final report
 
 This report contains implemented on two paper:
   1. https://arxiv.org/abs/1805.05751
