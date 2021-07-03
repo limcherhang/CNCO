@@ -1,6 +1,6 @@
 # final report
 
-This report contains implemented on two paper:
+This is my prototype report and contains implemented on two paper:
   1. https://arxiv.org/abs/1805.05751
   2. https://arxiv.org/abs/1705.10461
 
