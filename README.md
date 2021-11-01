@@ -6,7 +6,7 @@ This is my prototype report and contains implemented on two paper:
 
 # New idea
 
-By the two methods proposed in the paper above, I have a new idea that is mix up two methods and do some simple simulation. By the way, I updated implement on the datasets mnist.
+By the two methods proposed in the paper above, I have a new idea that combine two methods and do some simple simulation. By the way, I updated implement on the datasets mnist.
 
 # Run the code
 To run the code, 
