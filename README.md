@@ -1,4 +1,3 @@
-# final report
 I'm a newbie researcher in Taiwan, if I have any wrong idea, please contact me. Thank you
 
 This is my prototype report and contains implemented on two paper:
