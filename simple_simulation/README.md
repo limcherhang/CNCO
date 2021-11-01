@@ -3,8 +3,6 @@ It's the simple simulation of CNCO, which combine two methods that proposed in h
 And the result is shown as below:
 ![alt text](comparison_result.png)
 
-To implement in datasets, see https://github.com/limcherhang/finalreport/tree/main/simple_simulation/implement_in_datasets
-
 ########################################
 ## more details will update in future ##
 ########################################
