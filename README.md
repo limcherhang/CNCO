@@ -12,11 +12,25 @@ By the two methods proposed in the paper above, I have a new idea that combine t
 To run the code, 
 
 ``` console
-$ python main.py
+$ python main.py --opt='SimGA' --epochs=100 --lr=1e-4 --batch_size=32 --is_fid=1 --fid_range=50
+$ python main.py --opt='SimGA' --epochs=100 --lr=1e-3 --batch_size=5000 --is_fid=1 --fid_range=50
+$ python main.py --opt='ConOpt' --epochs=100 --lr=1e-4 --batch_size=32 --is_fid=1 --fid_range=50
+$ python main.py --opt='ConOpt' --epochs=100 --lr=1e-3 --batch_size=5000 --is_fid=1 --fid_range=50
+$ python main.py --opt='CESP' --epochs=100 --lr=1e-3 --batch_size=5000 --alpha=0.1 --is_eigen=1 --is_fid=1 --load_model_path='' --fid_range=50
+$ python main.py --opt='CESP' --epochs=100 --lr=1e-3 --batch_size=5000 --alpha=0.5 --is_eigen=1 --is_fid=1 --load_model_path='' --fid_range=50
+$ python main.py --opt='CESP' --epochs=100 --lr=1e-3 --batch_size=5000 --alpha=1.0 --is_eigen=1 --is_fid=1 --load_model_path='' --fid_range=50 
+$ python main.py --opt='CESP' --epochs=100 --lr=1e-3 --batch_size=5000 --alpha=5.0 --is_eigen=1 --is_fid=1 --load_model_path='' --fid_range=50
+$ python main.py --opt='CNCO' --epochs=100 --lr=1e-3 --batch_size=5000 --gamma=0.1 --alpha=0.1 --is_eigen=1 --is_fid=1 --load_model_path='' --fid_range=50
+$ python main.py --opt='CNCO' --epochs=100 --lr=1e-3 --batch_size=5000 --gamma=0.1 --alpha=0.5 --is_eigen=1 --is_fid=1 --load_model_path='' --fid_range=50
+$ python main.py --opt='CNCO' --epochs=100 --lr=1e-3 --batch_size=5000 --gamma=0.1 --alpha=1.0 --is_eigen=1 --is_fid=1 --load_model_path='' --fid_range=50
+$ python main.py --opt='CNCO' --epochs=100 --lr=1e-3 --batch_size=5000 --gamma=0.5 --alpha=0.1 --is_eigen=1 --is_fid=1 --load_model_path='' --fid_range=50
+$ python main.py --opt='CNCO' --epochs=100 --lr=1e-3 --batch_size=5000 --gamma=0.5 --alpha=0.5 --is_eigen=1 --is_fid=1 --load_model_path='' --fid_range=50
+$ python main.py --opt='CNCO' --epochs=100 --lr=1e-3 --batch_size=5000 --gamma=0.5 --alpha=1.0 --is_eigen=1 --is_fid=1 --load_model_path='' --fid_range=50
+$ python main.py --opt='CNCO' --epochs=100 --lr=1e-3 --batch_size=5000 --gamma=1.0 --alpha=0.1 --is_eigen=1 --is_fid=1 --load_model_path='' --fid_range=50
+$ python main.py --opt='CNCO' --epochs=100 --lr=1e-3 --batch_size=5000 --gamma=1.0 --alpha=0.5 --is_eigen=1 --is_fid=1 --load_model_path='' --fid_range=50
+$ python main.py --opt='CNCO' --epochs=100 --lr=1e-3 --batch_size=5000 --gamma=1.0 --alpha=1.0 --is_eigen=1 --is_fid=1 --load_model_path='' --fid_range=50
 ```
 
 And get the result of loss function and generated image on Simultaneous Gradient Descent(SimGA), Consensus Optimization(ConOpt), Negative Curvature Exploitation for Local Saddle Point Problem(CESP) and Consensus Negative Curvature Optimization(CNCO).
 
-########################################
-## More details will update in future ##
-########################################
+More result details will updated in future in my paper.
