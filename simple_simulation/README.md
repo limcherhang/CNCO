@@ -2,7 +2,3 @@ It's the simple simulation of CNCO, which combine two methods that proposed in h
 
 And the result is shown as below:
 ![alt text](comparison_result.png)
-
-########################################
-## more details will update in future ##
-########################################
