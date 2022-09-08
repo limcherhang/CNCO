@@ -37,6 +37,6 @@ $ python main.py --opt='CNCO' --epochs=100 --lr=1e-3 --batch_size=5000 --gamma=1
 
 And get the result of loss function and generated image on Simultaneous Gradient Descent(SimGA), Consensus Optimization(ConOpt), Negative Curvature Exploitation for Local Saddle Point Problem(CESP) and Consensus Negative Curvature Optimization(CNCO).
 
-![alt text](architecuture.png)
+![alt text](architecture.png)
 
 More result details will updated in future in my paper. My paper is progressing, thank you for attention.
