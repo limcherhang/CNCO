@@ -1,0 +1,65 @@
+*.json
+!*_example_variable.json
+.env
+# airflow test
+unittests.cfg
+
+# any output
+*.csv
+*.xlsx
+
+*.pickle
+
+# pycharm
+*.idea
+
+# vscode
+.vscode
+
+*.xml
+
+*.iml
+
+# any log
+*log
+*.log
+*.log.*
+
+*.swp
+
+/tags
+
+# pyinstaller
+/build
+/dist
+
+# python cache
+/__pycache__
+**__pycache__
+*.pyc
+
+# python virtualvenv
+venv*
+.venv
+
+# compressed
+*.tar
+
+# text file except requirements
+*.txt
+!requirements.txt
+
+# config file
+db_config.yaml
+api_config.yaml
+log_config.yaml
+
+# key_file
+id_rsa_airflow
+
+.DS_Store
+
+# pytest pydantic env
+afpytest.env
+
+*.sw*
